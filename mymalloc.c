@@ -9,7 +9,7 @@
 struct heapCell {
 	size_t size;
 	void *buff;
-	struct cell *next;
+	struct heapCell *next;
 };
 
 typedef struct heapCell freeCell;
